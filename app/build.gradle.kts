@@ -17,6 +17,8 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
     implementation("com.google.guava:guava:32.1.1-jre") // <6>
+
+    implementation("org.apache.inlong:inlong:1.4.0")
 }
 
 application {
