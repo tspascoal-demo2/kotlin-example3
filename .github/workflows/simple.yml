@@ -33,3 +33,7 @@ jobs:
       run: |
         chmod +x gradlew
         ./gradlew build
+    - name: create dependencies
+      uses: anchore/sbom-action@v0.14.3
+      with:
+        dependency-snapshot: true
