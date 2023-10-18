@@ -20,7 +20,7 @@ dependencies {
 
     implementation("com.webauthn4j:webauthn4j-spring-security-core:0.8.0.RELEASE")
 
-    implementation("org.xwiki.contrib.changerequest:application-changerequest-ui:0.11")
+   
 }
 
 application {
