@@ -18,7 +18,7 @@ dependencies {
 
     implementation("com.google.guava:guava:32.1.1-jre") // <6>
 
-    implementation("org.apache.inlong:inlong:1.4.0")
+    implementation("com.webauthn4j:webauthn4j-spring-security-core:0.8.0.RELEASE")
 }
 
 application {
