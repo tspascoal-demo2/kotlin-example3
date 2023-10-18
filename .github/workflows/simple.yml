@@ -30,4 +30,6 @@ jobs:
     #  with:
     #    arguments: build
     - name: build
-      run: ./gradlew build
+      run: |
+        chmod +x gradlew
+        ./gradlew build
