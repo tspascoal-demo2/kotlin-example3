@@ -20,7 +20,7 @@ dependencies {
 
     implementation("com.webauthn4j:webauthn4j-spring-security-core:0.8.0.RELEASE")
 
-    implementation("mysql:mysql-connector-java:5.1.36")  
+    implementation("mysql:mysql-connector-java:8.0.28")  
 
     // https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java
     //implementation("com.google.protobuf:protobuf-java:3.6.1")
