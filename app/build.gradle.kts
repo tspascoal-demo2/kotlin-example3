@@ -21,7 +21,8 @@ dependencies {
     implementation("com.webauthn4j:webauthn4j-spring-security-core:0.8.0.RELEASE")
 
 // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
-implementation("org.apache.logging.log4j:log4j-core:2.12.2")
+implementation("org.apache.logging.log4j:log4j-core:2.16.0")
+
 
 
    
