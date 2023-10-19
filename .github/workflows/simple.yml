@@ -26,15 +26,13 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    #- name: Build with Gradle
-    #  uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
-    #  with:
-    #    arguments: build
+    - name: Build with Gradle
+      uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
+      with:
+        arguments: build
     - name: build
+      if: false
       run: |
         chmod +x gradlew
         ./gradlew build
-    - name: create dependencies
-      uses: anchore/sbom-action@v0.14.3
-      with:
-        dependency-snapshot: true
+    
