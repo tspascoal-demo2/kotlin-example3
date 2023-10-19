@@ -20,8 +20,8 @@ dependencies {
 
     implementation("com.webauthn4j:webauthn4j-spring-security-core:0.8.0.RELEASE")
 
-    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-    implementation("mysql:mysql-connector-java:8.0.20")  
+    implementation("mysql:mysql-connector-java:5.1.36")  
+    
 
    
 }
