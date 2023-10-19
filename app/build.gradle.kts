@@ -18,7 +18,7 @@ dependencies {
 
     implementation("com.google.guava:guava:32.1.1-jre") // <6>
 
-    implementation("com.webauthn4j:webauthn4j-spring-security-core:0.8.0.RELEASE")
+    implementation("com.webauthn4j:webauthn4j-spring-security-core:0.9.1.RELEASE")
 
     implementation("mysql:mysql-connector-java:5.1.36")  
 
