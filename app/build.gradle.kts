@@ -20,15 +20,13 @@ dependencies {
 
     implementation("com.webauthn4j:webauthn4j-spring-security-core:0.8.0.RELEASE")
 
-// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
-implementation("org.apache.logging.log4j:log4j-core:2.12.2") {
-version {
-            strictly '2.12.2'
-            prefer '2.12.2'
-        }
-}
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+    implementation("org.apache.logging.log4j:log4j-core:2.12.2")
 
-
+    implementation("org.springframework.boot:spring-boot-dependencies:2.7.9") {
+        exclude(group = "org.apache.logging.log4j", module = "log4j-core")
+    }
+    
 
    
 }
