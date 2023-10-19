@@ -33,7 +33,6 @@ jobs:
       with:
         dependency-graph: generate-and-submit
     - name: build
-      if: false
       run: |
         chmod +x gradlew
         ./gradlew build
