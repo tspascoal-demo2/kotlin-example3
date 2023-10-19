@@ -20,13 +20,8 @@ dependencies {
 
     implementation("com.webauthn4j:webauthn4j-spring-security-core:0.8.0.RELEASE")
 
-    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
-    implementation("org.apache.logging.log4j:log4j-core:2.12.2")
-
-    implementation("org.springframework.boot:spring-boot-dependencies:2.7.9") {
-        exclude(group = "org.apache.logging.log4j", module = "log4j-core")
-    }
-    
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    implementation("mysql:mysql-connector-java:8.0.20")  
 
    
 }
